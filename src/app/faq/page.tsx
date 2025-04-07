@@ -162,7 +162,7 @@ export default function FAQPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Our team is here to help. Contact us for personalized assistance with your IT staffing or service needs.
           </p>
-          <Button size="lg">Contact Us</Button>
+          <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">Contact Us</Button>
         </div>
       </section>
     </>

@@ -65,7 +65,7 @@ export default function TestimonialsPage() {
                     />
                   </div>
                   <div className="md:w-3/4">
-                    <div className="text-primary mb-4">
+                    <div className="text-blue-600 mb-4">
                       <Quote size={24} />
                     </div>
                     <blockquote className="text-lg italic mb-4">"{testimonial.quote}"</blockquote>
@@ -128,7 +128,7 @@ export default function TestimonialsPage() {
                     />
                   </div>
                   <div className="md:w-3/4">
-                    <div className="text-primary mb-4">
+                    <div className="text-blue-600 mb-4">
                       <Quote size={24} />
                     </div>
                     <blockquote className="text-lg italic mb-4">"{testimonial.quote}"</blockquote>
@@ -183,17 +183,17 @@ export default function TestimonialsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to experience the TechTalent difference?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Whether you're looking to hire top IT talent or find your next career opportunity, we're here to help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="text-primary">
+            <Button size="lg" variant="secondary" className="text-blue-600">
               Hire Talent
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+            <Button size="lg" variant="secondary" className="text-blue-600">
               Find a Job
             </Button>
           </div>

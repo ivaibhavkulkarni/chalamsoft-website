@@ -77,7 +77,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <Users className="h-8 w-8 text-primary" />
+                <Users className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Industry Expertise</h3>
               <p className="text-gray-600">
@@ -87,7 +87,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <Award className="h-8 w-8 text-primary" />
+                <Award className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Quality Focus</h3>
               <p className="text-gray-600">
@@ -96,7 +96,7 @@ export default function AboutPage() {
             </div>
             <div className="text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <Clock className="h-8 w-8 text-primary" />
+                <Clock className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Responsive Service</h3>
               <p className="text-gray-600">
@@ -141,13 +141,13 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to work with us?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Let's discuss how we can help you find the right talent or provide the IT services your business needs.
           </p>
-          <Button size="lg" variant="secondary" className="text-primary">
+          <Button size="lg" variant="secondary" className="text-blue-600">
             Contact Us Today
           </Button>
         </div>

@@ -83,7 +83,7 @@ export default function ContactPage() {
                   </label>
                   <Textarea id="message" placeholder="Please provide details about your inquiry..." rows={5} />
                 </div>
-                <Button type="submit" className="w-full">
+                <Button type="submit" className="w-full text-white bg-blue-600 hover:bg-blue-400">
                   Submit
                 </Button>
               </form>
@@ -93,7 +93,7 @@ export default function ContactPage() {
               <div className="space-y-8">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <MapPin className="h-6 w-6 text-primary" />
+                    <MapPin className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Our Office</h3>
@@ -105,12 +105,12 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <Phone className="h-6 w-6 text-primary" />
+                    <Phone className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+15551234567" className="hover:text-primary">
+                      <a href="tel:+15551234567" className="hover:text-blue-600">
                         (555) 123-4567
                       </a>
                     </p>
@@ -118,12 +118,12 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <Mail className="h-6 w-6 text-primary" />
+                    <Mail className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@techtalentsolutions.com" className="hover:text-primary">
+                      <a href="mailto:info@techtalentsolutions.com" className="hover:text-blue-600">
                         info@techtalentsolutions.com
                       </a>
                     </p>
@@ -131,7 +131,7 @@ export default function ContactPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-3 rounded-full mr-4">
-                    <Clock className="h-6 w-6 text-primary" />
+                    <Clock className="h-6 w-6 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">Business Hours</h3>
@@ -143,7 +143,7 @@ export default function ContactPage() {
               <div className="mt-8">
                 <h3 className="font-bold text-lg mb-4">Connect With Us</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-primary/10 p-3 rounded-full text-primary hover:bg-primary/20">
+                  <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -160,7 +160,7 @@ export default function ContactPage() {
                     </svg>
                     <span className="sr-only">Facebook</span>
                   </a>
-                  <a href="#" className="bg-primary/10 p-3 rounded-full text-primary hover:bg-primary/20">
+                  <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -177,7 +177,7 @@ export default function ContactPage() {
                     </svg>
                     <span className="sr-only">Twitter</span>
                   </a>
-                  <a href="#" className="bg-primary/10 p-3 rounded-full text-primary hover:bg-primary/20">
+                  <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -223,7 +223,7 @@ export default function ContactPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Check out our frequently asked questions for quick answers to common inquiries.
           </p>
-          <Button size="lg" variant="outline">
+          <Button size="lg" variant="outline" className="text-white bg-blue-600 hover:bg-blue-400">
             View FAQ
           </Button>
         </div>

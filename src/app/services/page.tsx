@@ -23,7 +23,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-block text-primary mb-4">
+              <div className="inline-block text-blue-600 mb-4">
                 <Users size={40} />
               </div>
               <h2 className="text-3xl font-bold mb-6">IT Staffing Solutions</h2>
@@ -33,7 +33,7 @@ export default function ServicesPage() {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Contract Staffing</h3>
                     <p className="text-gray-600">
@@ -42,7 +42,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Permanent Placement</h3>
                     <p className="text-gray-600">
@@ -51,7 +51,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Temp-to-Hire</h3>
                     <p className="text-gray-600">Evaluate talent on the job before making a permanent commitment.</p>
@@ -59,7 +59,7 @@ export default function ServicesPage() {
                 </div>
               </div>
               <Link href="/employers">
-                <Button>Hire IT Talent</Button>
+                <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire IT Talent</Button>
               </Link>
             </div>
             <div className="relative h-[300px] md:h-[400px]">
@@ -90,7 +90,7 @@ export default function ServicesPage() {
               { icon: <Server className="h-6 w-6" />, title: "Network Engineers" },
             ].map((role, i) => (
               <div key={i} className="bg-white p-6 rounded-lg shadow-sm border flex items-center">
-                <div className="text-primary mr-3">{role.icon}</div>
+                <div className="text-blue-600 mr-3">{role.icon}</div>
                 <h3 className="font-medium">{role.title}</h3>
               </div>
             ))}
@@ -111,7 +111,7 @@ export default function ServicesPage() {
               />
             </div>
             <div className="order-1 md:order-2">
-              <div className="inline-block text-primary mb-4">
+              <div className="inline-block text-blue-600 mb-4">
                 <Server size={40} />
               </div>
               <h2 className="text-3xl font-bold mb-6">IT Services</h2>
@@ -121,7 +121,7 @@ export default function ServicesPage() {
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Managed IT Services</h3>
                     <p className="text-gray-600">
@@ -130,7 +130,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Cloud Solutions</h3>
                     <p className="text-gray-600">
@@ -139,7 +139,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 <div className="flex items-start">
-                  <CheckCircle className="text-primary mr-3 h-5 w-5 mt-0.5" />
+                  <CheckCircle className="text-blue-600 mr-3 h-5 w-5 mt-0.5" />
                   <div>
                     <h3 className="font-bold">Custom Software Development</h3>
                     <p className="text-gray-600">
@@ -149,7 +149,7 @@ export default function ServicesPage() {
                 </div>
               </div>
               <Link href="/contact">
-                <Button>Get IT Services</Button>
+                <Button className="text-white bg-blue-600 hover:bg-blue-400">Get IT Services</Button>
               </Link>
             </div>
           </div>
@@ -199,17 +199,17 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to get started?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Contact us today to discuss your IT staffing needs or technical service requirements.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="text-primary">
+            <Button size="lg" variant="secondary" className="text-blue-600">
               Request Talent
             </Button>
-            <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
+            <Button size="lg" variant="secondary" className="text-blue-600">
               Get IT Services
             </Button>
           </div>

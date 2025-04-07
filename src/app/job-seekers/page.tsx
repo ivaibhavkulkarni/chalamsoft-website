@@ -18,7 +18,7 @@ export default function JobSeekersPage() {
                 We connect talented IT professionals with exciting opportunities at leading companies. Let us help you
                 find your perfect role.
               </p>
-              <Button size="lg">Submit Your Resume</Button>
+              <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">Submit Your Resume</Button>
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
@@ -75,7 +75,7 @@ export default function JobSeekersPage() {
                     <h3 className="text-xl font-bold">{job.title}</h3>
                     <p className="text-gray-600">{job.company}</p>
                   </div>
-                  <div className="bg-primary/10 text-primary text-sm font-medium px-3 py-1 rounded-full">
+                  <div className="bg-primary/10 text-blue-600 text-sm font-medium px-3 py-1 rounded-full">
                     {job.type}
                   </div>
                 </div>
@@ -84,7 +84,7 @@ export default function JobSeekersPage() {
                   {job.location}
                 </p>
                 <p className="text-gray-600 mb-4">{job.description}</p>
-                <Button variant="outline" className="w-full">
+                <Button variant="outline" className="w-full hover:bg-blue-200">
                   View Details
                 </Button>
               </div>
@@ -92,7 +92,7 @@ export default function JobSeekersPage() {
           </div>
           <div className="text-center mt-8">
             <Link href="/job-listings">
-              <Button variant="outline">
+              <Button variant="outline" className="hover:bg-blue-200">
                 View All Job Openings
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
@@ -108,7 +108,7 @@ export default function JobSeekersPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <Briefcase className="h-8 w-8 text-primary" />
+                <Briefcase className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Access to Top Employers</h3>
               <p className="text-gray-600">
@@ -118,7 +118,7 @@ export default function JobSeekersPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <GraduationCap className="h-8 w-8 text-primary" />
+                <GraduationCap className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Career Development</h3>
               <p className="text-gray-600">
@@ -127,7 +127,7 @@ export default function JobSeekersPage() {
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border text-center">
               <div className="bg-primary/10 rounded-full p-4 inline-flex mb-4">
-                <Users className="h-8 w-8 text-primary" />
+                <Users className="h-8 w-8 text-blue-600" />
               </div>
               <h3 className="text-xl font-bold mb-3">Personalized Matching</h3>
               <p className="text-gray-600">
@@ -228,7 +228,7 @@ export default function JobSeekersPage() {
                   <p className="text-sm text-gray-500 mt-1">PDF or Word document (5MB max)</p>
                 </div>
                 <div>
-                  <Button type="submit" className="w-full">
+                  <Button type="submit" className="w-full text-white bg-blue-600 hover:bg-blue-400">
                     Submit Application
                   </Button>
                 </div>
@@ -268,13 +268,13 @@ export default function JobSeekersPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to advance your IT career?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Submit your resume today and let our expert recruiters help you find your next great opportunity.
           </p>
-          <Button size="lg" variant="secondary" className="text-primary">
+          <Button size="lg" variant="secondary" className="text-blue-600">
             Submit Your Resume
           </Button>
         </div>

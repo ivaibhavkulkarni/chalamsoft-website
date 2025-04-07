@@ -17,7 +17,7 @@ export default function EmployersPage() {
                 We connect you with pre-vetted IT professionals who have the skills and experience to help your business
                 succeed.
               </p>
-              <Button size="lg">Request Talent</Button>
+              <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">Request Talent</Button>
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
@@ -37,7 +37,7 @@ export default function EmployersPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Our Hiring Process</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-sm border relative">
-              <div className="absolute -top-4 -left-4 bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+              <div className="absolute -top-4 -left-4 bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                 1
               </div>
               <h3 className="text-xl font-bold mb-4">Understand Your Needs</h3>
@@ -47,7 +47,7 @@ export default function EmployersPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border relative">
-              <div className="absolute -top-4 -left-4 bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+              <div className="absolute -top-4 -left-4 bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                 2
               </div>
               <h3 className="text-xl font-bold mb-4">Match & Vet Candidates</h3>
@@ -57,7 +57,7 @@ export default function EmployersPage() {
               </p>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-sm border relative">
-              <div className="absolute -top-4 -left-4 bg-primary text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
+              <div className="absolute -top-4 -left-4 bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold">
                 3
               </div>
               <h3 className="text-xl font-bold mb-4">Present & Support</h3>
@@ -79,7 +79,7 @@ export default function EmployersPage() {
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-2 rounded-full mr-4">
-                    <Search className="h-5 w-5 text-primary" />
+                    <Search className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Technical Expertise</h3>
@@ -90,7 +90,7 @@ export default function EmployersPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-2 rounded-full mr-4">
-                    <Clock className="h-5 w-5 text-primary" />
+                    <Clock className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Speed & Efficiency</h3>
@@ -99,7 +99,7 @@ export default function EmployersPage() {
                 </div>
                 <div className="flex items-start">
                   <div className="bg-primary/10 p-2 rounded-full mr-4">
-                    <Award className="h-5 w-5 text-primary" />
+                    <Award className="h-5 w-5 text-blue-600" />
                   </div>
                   <div>
                     <h3 className="font-bold text-lg">Quality Guarantee</h3>
@@ -201,7 +201,7 @@ export default function EmployersPage() {
                   />
                 </div>
                 <div>
-                  <Button type="submit" className="w-full">
+                  <Button type="submit" className="w-full text-white bg-blue-600 hover:bg-blue-400">
                     Submit Request
                   </Button>
                 </div>
@@ -243,13 +243,13 @@ export default function EmployersPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to find your next IT star?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Contact us today to discuss your hiring needs and how we can help you build a stronger tech team.
           </p>
-          <Button size="lg" variant="secondary" className="text-primary">
+          <Button size="lg" variant="secondary" className="text-blue-600">
             Get Started Now
           </Button>
         </div>
