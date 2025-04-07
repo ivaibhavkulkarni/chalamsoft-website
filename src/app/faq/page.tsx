@@ -86,7 +86,7 @@ export default function FAQPage() {
                 <AccordionTrigger>What happens after I submit my resume?</AccordionTrigger>
                 <AccordionContent>
                   Our recruiters will review your qualifications and reach out if there is a potential match. We will
-                  discuss your career goals and preferences before presenting any opportunities. If we don't have an
+                  discuss your career goals and preferences before presenting any opportunities. If we dont have an
                   immediate match, we will keep your resume on file and contact you when relevant positions become
                   available.
                 </AccordionContent>

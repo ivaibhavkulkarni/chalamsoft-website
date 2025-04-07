@@ -154,8 +154,8 @@ export default function JobSeekersPage() {
               </div>
               <div className="md:w-3/4">
                 <blockquote className="text-lg italic mb-4">
-                  "TechTalent Solutions helped me find a role that perfectly matched my skills and career goals. Their
-                  team was supportive throughout the entire process, from resume review to interview preparation."
+                  TechTalent Solutions helped me find a role that perfectly matched my skills and career goals. Their
+                  team was supportive throughout the entire process, from resume review to interview preparation.
                 </blockquote>
                 <div>
                   <p className="font-bold">Jennifer Lee</p>

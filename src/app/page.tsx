@@ -171,8 +171,8 @@ export default function Home() {
               <Award size={40} className="mx-auto" />
             </div>
             <blockquote className="text-xl md:text-2xl italic mb-6">
-              "TechTalent Solutions helped us find the perfect development team for our project. Their understanding of
-              our technical needs and company culture was impressive."
+              TechTalent Solutions helped us find the perfect development team for our project. Their understanding of
+              our technical needs and company culture was impressive.
             </blockquote>
             <div>
               <p className="font-bold">Sarah Johnson</p>

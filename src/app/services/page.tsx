@@ -117,7 +117,7 @@ export default function ServicesPage() {
               <h2 className="text-3xl font-bold mb-6">IT Services</h2>
               <p className="text-gray-600 mb-6">
                 We provide comprehensive technical solutions and consulting to optimize your IT infrastructure and
-                operations, helping you stay competitive in today's digital landscape.
+                operations, helping you stay competitive in todays digital landscape.
               </p>
               <div className="space-y-4 mb-8">
                 <div className="flex items-start">

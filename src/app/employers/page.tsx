@@ -136,8 +136,8 @@ export default function EmployersPage() {
               </div>
               <div className="md:w-3/4">
                 <blockquote className="text-lg italic mb-4">
-                  "TechTalent Solutions understood exactly what we were looking for in a DevOps engineer. They presented
-                  candidates who not only had the technical skills but also fit perfectly with our team culture."
+                  TechTalent Solutions understood exactly what we were looking for in a DevOps engineer. They presented
+                  candidates who not only had the technical skills but also fit perfectly with our team culture.
                 </blockquote>
                 <div>
                   <p className="font-bold">Robert Chen</p>
@@ -186,7 +186,7 @@ export default function EmployersPage() {
                 </div>
                 <div>
                   <label htmlFor="position" className="block mb-2 font-medium">
-                    Position You're Hiring For
+                    Position You are Hiring For
                   </label>
                   <Input id="position" placeholder="e.g., Senior React Developer" />
                 </div>
@@ -220,7 +220,7 @@ export default function EmployersPage() {
               <h3 className="text-xl font-bold mb-2">How quickly can you find candidates?</h3>
               <p className="text-gray-600">
                 For most positions, we can present qualified candidates within 1-2 weeks. For urgent needs or
-                specialized roles, we'll work with you to establish a realistic timeline.
+                specialized roles, we will work with you to establish a realistic timeline.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border">

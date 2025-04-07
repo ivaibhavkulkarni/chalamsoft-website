@@ -68,7 +68,7 @@ export default function TestimonialsPage() {
                     <div className="text-blue-600 mb-4">
                       <Quote size={24} />
                     </div>
-                    <blockquote className="text-lg italic mb-4">"{testimonial.quote}"</blockquote>
+                    <blockquote className="text-lg italic mb-4">{testimonial.quote}</blockquote>
                     <div>
                       <p className="font-bold">{testimonial.name}</p>
                       <p className="text-gray-600">{testimonial.title}</p>
@@ -131,7 +131,7 @@ export default function TestimonialsPage() {
                     <div className="text-blue-600 mb-4">
                       <Quote size={24} />
                     </div>
-                    <blockquote className="text-lg italic mb-4">"{testimonial.quote}"</blockquote>
+                    <blockquote className="text-lg italic mb-4">{testimonial.quote}</blockquote>
                     <div>
                       <p className="font-bold">{testimonial.name}</p>
                       <p className="text-gray-600">{testimonial.title}</p>
