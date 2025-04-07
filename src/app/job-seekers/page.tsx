@@ -112,7 +112,7 @@ export default function JobSeekersPage() {
               </div>
               <h3 className="text-xl font-bold mb-3">Access to Top Employers</h3>
               <p className="text-gray-600">
-                We partner with leading companies across industries, giving you access to opportunities you won't find
+                We partner with leading companies across industries, giving you access to opportunities you will not find
                 elsewhere.
               </p>
             </div>
@@ -246,7 +246,7 @@ export default function JobSeekersPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm border">
               <h3 className="text-xl font-bold mb-2">Is there a fee for job seekers?</h3>
               <p className="text-gray-600">
-                No, our services are completely free for job seekers. We're paid by the companies that hire through us.
+                No, our services are completely free for job seekers. We are paid by the companies that hire through us.
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm border">
@@ -259,7 +259,7 @@ export default function JobSeekersPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm border">
               <h3 className="text-xl font-bold mb-2">What happens after I submit my resume?</h3>
               <p className="text-gray-600">
-                Our recruiters will review your qualifications and reach out if there's a potential match. We'll discuss
+                Our recruiters will review your qualifications and reach out if there is a potential match. We will discuss
                 your career goals and preferences before presenting any opportunities.
               </p>
             </div>

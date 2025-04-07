@@ -234,7 +234,7 @@ export default function EmployersPage() {
               <h3 className="text-xl font-bold mb-2">What is your fee structure?</h3>
               <p className="text-gray-600">
                 Our fees vary based on the type of placement (contract vs. permanent) and the complexity of the role.
-                We're transparent about our pricing and will provide detailed information during our initial
+                Were transparent about our pricing and will provide detailed information during our initial
                 consultation.
               </p>
             </div>

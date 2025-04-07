@@ -171,7 +171,7 @@ export default function TestimonialsPage() {
       {/* Client Logos */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Companies We've Worked With</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Companies We have Worked With</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
             {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
               <div key={i} className="flex justify-center">
@@ -193,7 +193,7 @@ export default function TestimonialsPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to experience the TechTalent difference?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Whether you're looking to hire top IT talent or find your next career opportunity, we're here to help.
+            Whether you are looking to hire top IT talent or find your next career opportunity, we are here to help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" variant="secondary" className="text-blue-600">

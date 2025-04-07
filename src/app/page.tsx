@@ -187,7 +187,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to grow your team or find your next opportunity?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Whether you're looking to hire top IT talent or searching for your next career move, we're here to help.
+            Whether youre looking to hire top IT talent or searching for your next career move, were here to help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button size="lg" variant="secondary" className="text-blue-600">

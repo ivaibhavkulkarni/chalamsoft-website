@@ -11,7 +11,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl font-bold mb-6">About TechTalent Solutions</h1>
             <p className="text-xl text-gray-600">
-              We're on a mission to connect the best IT talent with companies that value innovation and expertise.
+              Were on a mission to connect the best IT talent with companies that value innovation and expertise.
             </p>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to work with us?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Let's discuss how we can help you find the right talent or provide the IT services your business needs.
+            Lets discuss how we can help you find the right talent or provide the IT services your business needs.
           </p>
           <Button size="lg" variant="secondary" className="text-blue-600">
             Contact Us Today

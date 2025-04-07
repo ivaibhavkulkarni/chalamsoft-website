@@ -26,7 +26,7 @@ export default function FAQPage() {
                 <AccordionTrigger>How quickly can you find candidates?</AccordionTrigger>
                 <AccordionContent>
                   For most positions, we can present qualified candidates within 1-2 weeks. For urgent needs or
-                  specialized roles, we'll work with you to establish a realistic timeline. Our extensive network and
+                  specialized roles, we will work with you to establish a realistic timeline. Our extensive network and
                   database of pre-screened candidates often allows us to move quickly.
                 </AccordionContent>
               </AccordionItem>
@@ -42,7 +42,7 @@ export default function FAQPage() {
                 <AccordionTrigger>What is your fee structure?</AccordionTrigger>
                 <AccordionContent>
                   Our fees vary based on the type of placement (contract vs. permanent) and the complexity of the role.
-                  We're transparent about our pricing and will provide detailed information during our initial
+                  We are transparent about our pricing and will provide detailed information during our initial
                   consultation. For contract positions, we typically charge a markup on the hourly rate, while permanent
                   placements usually involve a percentage of the first-year salary.
                 </AccordionContent>
@@ -59,8 +59,8 @@ export default function FAQPage() {
                 <AccordionTrigger>Do you offer any guarantees?</AccordionTrigger>
                 <AccordionContent>
                   Yes, we stand behind our placements with a satisfaction guarantee. For permanent placements, we offer
-                  a replacement guarantee period (typically 90 days). If a placed candidate doesn't work out during this
-                  period, we'll find a replacement at no additional cost.
+                  a replacement guarantee period (typically 90 days). If a placed candidate does not work out during this
+                  period, we will find a replacement at no additional cost.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -70,8 +70,8 @@ export default function FAQPage() {
               <AccordionItem value="item-6">
                 <AccordionTrigger>Is there a fee for job seekers?</AccordionTrigger>
                 <AccordionContent>
-                  No, our services are completely free for job seekers. We're paid by the companies that hire through
-                  us. You'll never be charged for our placement services or career guidance.
+                  No, our services are completely free for job seekers. We are paid by the companies that hire through
+                  us. You will never be charged for our placement services or career guidance.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-7">
@@ -85,9 +85,9 @@ export default function FAQPage() {
               <AccordionItem value="item-8">
                 <AccordionTrigger>What happens after I submit my resume?</AccordionTrigger>
                 <AccordionContent>
-                  Our recruiters will review your qualifications and reach out if there's a potential match. We'll
+                  Our recruiters will review your qualifications and reach out if there is a potential match. We will
                   discuss your career goals and preferences before presenting any opportunities. If we don't have an
-                  immediate match, we'll keep your resume on file and contact you when relevant positions become
+                  immediate match, we will keep your resume on file and contact you when relevant positions become
                   available.
                 </AccordionContent>
               </AccordionItem>
@@ -123,7 +123,7 @@ export default function FAQPage() {
                 <AccordionTrigger>How are your IT services priced?</AccordionTrigger>
                 <AccordionContent>
                   Our pricing models vary based on the service. We offer fixed-price projects, monthly service
-                  retainers, and hourly billing options. During our initial consultation, we'll discuss your needs and
+                  retainers, and hourly billing options. During our initial consultation, we will discuss your needs and
                   recommend the most appropriate pricing structure for your situation.
                 </AccordionContent>
               </AccordionItem>
