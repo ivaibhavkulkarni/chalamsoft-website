@@ -21,7 +21,7 @@ export default function EmployersPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                 alt="IT hiring manager with team"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -110,7 +110,7 @@ export default function EmployersPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                 alt="IT professionals in meeting"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -127,7 +127,7 @@ export default function EmployersPage() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="md:w-1/4">
                 <Image
-                  src="/placeholder.svg?height=100&width=100&text=Client"
+                  src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                   alt="Client"
                   width={100}
                   height={100}

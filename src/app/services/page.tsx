@@ -64,7 +64,7 @@ export default function ServicesPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                 alt="IT staffing services"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -104,7 +104,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                 alt="IT services"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -164,7 +164,7 @@ export default function ServicesPage() {
             <div className="flex flex-col md:flex-row gap-8">
               <div className="md:w-1/3">
                 <Image
-                  src="/placeholder.svg?height=200&width=200&text=Client+Logo"
+                  src="https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png"
                   alt="Client logo"
                   width={200}
                   height={200}

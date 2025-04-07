@@ -29,35 +29,35 @@ export default function TestimonialsPage() {
                 title: "CTO, InnovateTech",
                 quote:
                   "TechTalent Solutions helped us find the perfect development team for our project. Their understanding of our technical needs and company culture was impressive.",
-                image: "1",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Michael Rodriguez",
                 title: "VP of Engineering, CloudScale",
                 quote:
                   "We've worked with several staffing firms, but TechTalent Solutions stands out for their technical expertise and quality of candidates. They've become our go-to partner for IT hiring.",
-                image: "2",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Jennifer Lee",
                 title: "Director of IT, Global Systems",
                 quote:
                   "When we needed to scale our team quickly for a major project, TechTalent Solutions delivered exceptional candidates within our tight timeline. Their service was outstanding.",
-                image: "3",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Robert Chen",
                 title: "CTO, CloudScale Technologies",
                 quote:
                   "TechTalent Solutions understood exactly what we were looking for in a DevOps engineer. They presented candidates who not only had the technical skills but also fit perfectly with our team culture.",
-                image: "4",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
             ].map((testimonial, i) => (
               <div key={i} className="bg-white p-8 rounded-lg shadow-sm border">
                 <div className="flex flex-col md:flex-row gap-6 items-center">
                   <div className="md:w-1/4">
                     <Image
-                      src={`/placeholder.svg?height=100&width=100&text=${testimonial.name}`}
+                      src={testimonial.image}
                       alt={testimonial.name}
                       width={100}
                       height={100}
@@ -92,35 +92,35 @@ export default function TestimonialsPage() {
                 title: "Senior Software Engineer",
                 quote:
                   "TechTalent Solutions found me a role that perfectly matched my skills and career goals. Their team was supportive throughout the entire process, from resume review to interview preparation.",
-                image: "5",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Aisha Patel",
                 title: "DevOps Specialist",
                 quote:
                   "I was looking for a remote position with a company that valued work-life balance. TechTalent Solutions not only found me that perfect match but also negotiated a better compensation package than I expected.",
-                image: "6",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Marcus Johnson",
                 title: "IT Project Manager",
                 quote:
                   "After being laid off, I was worried about finding a new position quickly. TechTalent Solutions connected me with three great opportunities within a week, and I started my new job just two weeks later.",
-                image: "7",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
               {
                 name: "Sophia Garcia",
                 title: "UX/UI Designer",
                 quote:
                   "What impressed me most was how TechTalent Solutions took the time to understand my career goals and the type of company culture I was looking for. They didn't just find me a job—they found me the right job.",
-                image: "8",
+                image: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg",
               },
             ].map((testimonial, i) => (
               <div key={i} className="bg-white p-8 rounded-lg shadow-sm border">
                 <div className="flex flex-col md:flex-row gap-6 items-center">
                   <div className="md:w-1/4">
                     <Image
-                      src={`/placeholder.svg?height=100&width=100&text=${testimonial.name}`}
+                      src={testimonial.image}
                       alt={testimonial.name}
                       width={100}
                       height={100}
@@ -146,21 +146,27 @@ export default function TestimonialsPage() {
 
       {/* Video Testimonial */}
       <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Featured Video Testimonial</h2>
-          <div className="max-w-3xl mx-auto">
-            <div className="relative h-0 pb-[56.25%] bg-gray-100 rounded-lg shadow-lg">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <p className="text-gray-500">Video Testimonial Placeholder</p>
-              </div>
-            </div>
-            <div className="mt-6 text-center">
-              <h3 className="text-xl font-bold">Tech Innovation Partners</h3>
-              <p className="text-gray-600">How TechTalent Solutions helped build their engineering team</p>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-12">Featured Video Testimonial</h2>
+    <div className="max-w-3xl mx-auto">
+      <div className="relative h-0 pb-[56.25%] bg-gray-100 rounded-lg shadow-lg">
+        <iframe
+          className="absolute inset-0 w-full h-full rounded-lg"
+          src="https://www.youtube.com/embed/3d6DsjIBzJ4"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <div className="mt-6 text-center">
+        <h3 className="text-xl font-bold">Tech Innovation Partners</h3>
+        <p className="text-gray-600">How TechTalent Solutions helped build their engineering team</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Client Logos */}
       <section className="py-16 bg-gray-50">

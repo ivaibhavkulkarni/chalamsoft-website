@@ -80,16 +80,16 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-600">
-              <p>123 Tech Avenue</p>
-              <p>San Francisco, CA 94107</p>
-              <p className="mt-2">Phone: (555) 123-4567</p>
-              <p>Email: info@techtalentsolutions.com</p>
+              <p>123 Tech Park</p>
+              <p>LA, USA</p>
+              <p className="mt-2">Phone: +91 22123-4567</p>
+              <p>Email: info@ChalamSoft.com</p>
             </address>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-gray-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} TechTalent Solutions. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} ChalamSoft. All rights reserved.</p>
         </div>
       </div>
     </footer>

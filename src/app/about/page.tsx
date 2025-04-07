@@ -38,7 +38,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://i2idirectmarketing.com/wp-content/uploads/2020/06/teamwork-quotes.png"
                 alt="Our team at work"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -113,14 +113,14 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold text-center mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { name: "Michael Chen", title: "CEO & Founder", img: "1" },
-              { name: "Sarah Williams", title: "Director of Recruitment", img: "2" },
-              { name: "David Rodriguez", title: "Head of IT Services", img: "3" },
+              { name: "Michael Chen", title: "CEO & Founder", img: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg" },
+              { name: "Sarah Williams", title: "Director of Recruitment", img: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg" },
+              { name: "David Rodriguez", title: "Head of IT Services", img: "https://factsfive.com/wp-content/uploads/2020/10/Leonardo-DiCaprio-Wiki-Bio-Age-Net-Worth-and-Other-Facts.jpeg" },
             ].map((person, i) => (
               <div key={i} className="bg-white rounded-lg overflow-hidden shadow-sm">
                 <div className="relative h-64">
                   <Image
-                    src={`/placeholder.svg?height=300&width=300&text=${person.name}`}
+                    src={person.img}
                     alt={person.name}
                     fill
                     className="object-cover"

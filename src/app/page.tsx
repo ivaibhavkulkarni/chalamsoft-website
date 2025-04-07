@@ -4,6 +4,14 @@ import { Button } from "@/components/ui/button"
 import { CheckCircle, Users, Server, Award, ArrowRight } from "lucide-react"
 
 export default function Home() {
+
+  const clients = [
+    { id: 1, src: "https://logos-world.net/wp-content/uploads/2020/09/Google-Logo.png", alt: "Google" },
+    { id: 2, src: "https://pngimg.com/uploads/apple_logo/apple_logo_PNG19674.png", alt: "Apple" },
+    { id: 3, src: "https://logowik.com/content/uploads/images/hackerrank8164.logowik.com.webp", alt: "HackerRank" },
+    { id: 4, src: "https://logos-world.net/wp-content/uploads/2020/10/Tesla-Emblem.png", alt: "Tesla" },
+  ];
+
   return (
     <>
       {/* Hero Section */}
@@ -29,7 +37,7 @@ export default function Home() {
             </div>
             <div className="relative h-[300px] md:h-[400px]">
               <Image
-                src="/placeholder.svg?height=400&width=500"
+                src="https://makeitfable.com/wp-content/uploads/2020/12/876429_Methods-for-Inclusion-Blog-Image1200x675_103020.jpeg"
                 alt="IT professionals working together"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -140,11 +148,11 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Trusted By</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center">
-            {[1, 2, 3, 4].map((i) => (
-              <div key={i} className="flex justify-center">
+            {clients.map((client) => (
+              <div key={client.id} className="flex justify-center">
                 <Image
-                  src={`/placeholder.svg?height=60&width=120&text=Client+${i}`}
-                  alt={`Client ${i}`}
+                  src={client.src}
+                  alt={client.alt}
                   width={120}
                   height={60}
                   className="opacity-70 hover:opacity-100 transition-opacity"

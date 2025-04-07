@@ -34,32 +34,32 @@ export default function ContactPage() {
                     <label htmlFor="firstName" className="block mb-2 font-medium">
                       First Name
                     </label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" placeholder="Leo" />
                   </div>
                   <div>
                     <label htmlFor="lastName" className="block mb-2 font-medium">
                       Last Name
                     </label>
-                    <Input id="lastName" placeholder="Smith" />
+                    <Input id="lastName" placeholder="Decap" />
                   </div>
                 </div>
                 <div>
                   <label htmlFor="email" className="block mb-2 font-medium">
                     Email Address
                   </label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" placeholder="Vaibhav@gmail.com" />
                 </div>
                 <div>
                   <label htmlFor="phone" className="block mb-2 font-medium">
                     Phone Number
                   </label>
-                  <Input id="phone" placeholder="(555) 123-4567" />
+                  <Input id="phone" placeholder="+91 22123-4567" />
                 </div>
                 <div>
                   <label htmlFor="company" className="block mb-2 font-medium">
                     Company Name
                   </label>
-                  <Input id="company" placeholder="Acme Inc." />
+                  <Input id="company" placeholder="Apple" />
                 </div>
                 <div>
                   <label htmlFor="inquiry" className="block mb-2 font-medium">
@@ -98,8 +98,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Our Office</h3>
                     <address className="not-italic text-gray-600">
-                      <p>123 Tech Avenue</p>
-                      <p>San Francisco, CA 94107</p>
+                      <p>123 Tech Park</p>
+                      <p>Hyderabad, IND</p>
                     </address>
                   </div>
                 </div>
@@ -110,8 +110,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:+15551234567" className="hover:text-blue-600">
-                        (555) 123-4567
+                      <a href="+91 22123-4567" className="hover:text-blue-600">
+                        +91 22123-4567
                       </a>
                     </p>
                   </div>
@@ -123,8 +123,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-bold text-lg mb-1">Email</h3>
                     <p className="text-gray-600">
-                      <a href="mailto:info@techtalentsolutions.com" className="hover:text-blue-600">
-                        info@techtalentsolutions.com
+                      <a href="mailto:info@chalamsoft.com" className="hover:text-blue-600">
+                        info@chalamsoft.com
                       </a>
                     </p>
                   </div>
