@@ -80,8 +80,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold mb-4">Contact Us</h3>
             <address className="not-italic text-gray-600">
-              <p>123 Tech Park</p>
-              <p>LA, USA</p>
+              <p>Newmark House Building, Patrika Nagar,</p>
+              <p>Near to Medicover Hospital line,</p>
+              <p>Hitech City, Hyderabad-500081</p>
+              <p>India</p>
               <p className="mt-2">Phone: +91 22123-4567</p>
               <p>Email: info@ChalamSoft.com</p>
             </address>

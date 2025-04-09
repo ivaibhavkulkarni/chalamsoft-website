@@ -28,7 +28,7 @@ export default function AdminPage() {
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h1 className="text-2xl font-bold mb-4">Admin Login</h1>
           <p className="text-gray-600 mb-6">Please log in to access the admin panel.</p>
-          <Button onClick={handleLogin} className="w-full">
+          <Button onClick={handleLogin} className="w-full bg-blue-600 hover:bg-blue-400 text-white">
             Login (Demo)
           </Button>
         </div>
