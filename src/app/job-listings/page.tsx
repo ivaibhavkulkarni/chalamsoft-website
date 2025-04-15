@@ -199,7 +199,7 @@ export default function JobListings() {
                     <div className="mt-4 flex justify-between items-center">
                       <Button
                         variant="outline"
-                        className="text-sm"
+                        className="text-sm hover:bg-blue-200"
                         onClick={() => window.open(job.apply_job_link, "_blank")}
                       >
                         View Details
