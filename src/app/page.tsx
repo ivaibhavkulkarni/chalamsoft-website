@@ -30,9 +30,11 @@ export default function Home() {
                 <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">
                   Hire Talent
                 </Button>
+                <Link href="/job-listings">
                 <Button size="lg" variant="outline" className="text-base hover:bg-blue-200">
                   Find a Job
                 </Button>
+                </Link>
               </div>
             </div>
             <div className="relative h-[300px] md:h-[400px]">
@@ -193,9 +195,11 @@ export default function Home() {
             <Button size="lg" variant="secondary" className="text-blue-600">
               Hire Talent
             </Button>
+            <Link href="/job-listings">
             <Button size="lg" variant="secondary" className="text-blue-600">
               Find a Job
             </Button>
+            </Link>
           </div>
         </div>
       </section>

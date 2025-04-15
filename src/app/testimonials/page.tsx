@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Quote } from "lucide-react"
+import Link from "next/link"
 
 export default function TestimonialsPage() {
   return (
@@ -199,9 +200,11 @@ export default function TestimonialsPage() {
             <Button size="lg" variant="secondary" className="text-blue-600">
               Hire Talent
             </Button>
+            <Link href="/job-listings">
             <Button size="lg" variant="secondary" className="text-blue-600">
               Find a Job
             </Button>
+            </Link>
           </div>
         </div>
       </section>

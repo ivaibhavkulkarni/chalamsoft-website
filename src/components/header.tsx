@@ -45,7 +45,9 @@ export default function Header() {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
+            <Link href="/job-listings">
             <Button variant="outline" className="text-base hover:bg-blue-200">Find a Job</Button>
+            </Link>
             <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire Talent</Button>
           </div>
 
@@ -79,7 +81,9 @@ export default function Header() {
                 Contact
               </Link>
               <div className="flex flex-col space-y-2 pt-2">
+              <Link href="/job-listings">
               <Button variant="outline" className="w-full text-base hover:bg-blue-200">Find a Job</Button>
+              </Link>
               <Button className="w-full text-white bg-blue-600 hover:bg-blue-400">Hire Talent</Button>
               </div>
             </nav>
