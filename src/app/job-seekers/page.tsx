@@ -1,11 +1,46 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { ArrowRight, Briefcase, GraduationCap, Users } from "lucide-react"
+import { supabase } from "@/lib/supabaseClient"
+import { useEffect, useState } from "react"
+import { Skeleton } from "@/components/ui/skeleton"
+
+interface JobProps {
+  id: number
+  jobtitle: string
+  company: string
+  type: string
+  location: string
+  one_line_description: string
+}
 
 export default function JobSeekersPage() {
+  const [jobs, setJobs] = useState<JobProps[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const fetchData = async () =>{
+      setLoading(true)
+      const {data, error } = await supabase.from("JobOpenings").select("*").order("id",{ascending:false}).limit(4);
+      
+      if(error) {
+        console.log("Error message:",error)
+        setLoading(false)
+        return
+      }
+
+      setJobs(data as JobProps[])
+      setLoading(false)
+    }
+
+    fetchData()
+  },[])
+
   return (
     <>
       {/* Hero Section */}
@@ -32,7 +67,53 @@ export default function JobSeekersPage() {
         </div>
       </section>
 
-      {/* Current Openings */}
+      <section className="py-16">
+  <div className="container mx-auto px-4">
+    <h2 className="text-3xl font-bold text-center mb-12">Current Job Openings</h2>
+    {loading ? (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {[...Array(4)].map((_, i) => (
+          <Skeleton key={i} className="h-48 rounded-lg" />
+        ))}
+      </div>
+    ) : (
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {jobs.map(job => (
+          <div key={job.id} className="bg-white p-6 rounded-lg shadow-sm border">
+            <div className="flex justify-between items-start mb-4">
+              <div>
+                <h3 className="text-xl font-bold">{job.jobtitle}</h3>
+                <p className="text-gray-600">{job.company}</p>
+              </div>
+              <div className="bg-primary/10 text-blue-600 text-sm font-medium px-3 py-1 rounded-full">
+                {job.type}
+              </div>
+            </div>
+            <p className="flex items-center text-gray-600 mb-2">
+              <Briefcase className="h-4 w-4 mr-2" />
+              {job.location}
+            </p>
+            <p className="text-gray-600 mb-4">{job.one_line_description}</p>
+            <Button variant="outline" className="w-full hover:bg-blue-200">
+              View Details
+            </Button>
+          </div>
+          
+        ))}
+      </div>
+    )}
+    <div className="text-center mt-8">
+            <Link href="/job-listings">
+              <Button variant="outline" className="hover:bg-blue-200">
+                View All Job Openings
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </Link>
+          </div>
+  </div>
+</section>
+
+      {/* Current Openings
       <section className="py-16">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">Featured Job Openings</h2>
@@ -99,7 +180,9 @@ export default function JobSeekersPage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
+
+
 
       {/* Why Work With Us */}
       <section className="py-16 bg-gray-50">
