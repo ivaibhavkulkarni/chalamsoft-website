@@ -26,7 +26,7 @@ export default function Home() {
                 We bridge the gap between skilled IT professionals and companies that need them, providing staffing
                 solutions and IT services tailored to your needs.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-4 items-start">
                 <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">
                   Hire Talent
                 </Button>
@@ -196,7 +196,7 @@ export default function Home() {
               Hire Talent
             </Button>
             <Link href="/job-listings">
-            <Button size="lg" variant="secondary" className="text-blue-600">
+            <Button size="lg" variant="secondary" className="text-blue-600 w-full">
               Find a Job
             </Button>
             </Link>

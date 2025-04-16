@@ -34,32 +34,32 @@ export default function ContactPage() {
                     <label htmlFor="firstName" className="block mb-2 font-medium">
                       First Name
                     </label>
-                    <Input id="firstName" placeholder="Leo" />
+                    <Input id="firstName" placeholder="Firstname" />
                   </div>
                   <div>
                     <label htmlFor="lastName" className="block mb-2 font-medium">
                       Last Name
                     </label>
-                    <Input id="lastName" placeholder="Decap" />
+                    <Input id="lastName" placeholder="Lastname" />
                   </div>
                 </div>
                 <div>
                   <label htmlFor="email" className="block mb-2 font-medium">
                     Email Address
                   </label>
-                  <Input id="email" type="email" placeholder="Vaibhav@gmail.com" />
+                  <Input id="email" type="email" placeholder="chalamsoft@example.com" />
                 </div>
                 <div>
                   <label htmlFor="phone" className="block mb-2 font-medium">
                     Phone Number
                   </label>
-                  <Input id="phone" placeholder="+91 22123-4567" />
+                  <Input id="phone" placeholder="+91 922123-4567" />
                 </div>
                 <div>
                   <label htmlFor="company" className="block mb-2 font-medium">
                     Company Name
                   </label>
-                  <Input id="company" placeholder="Apple" />
+                  <Input id="company" placeholder="Current Company" />
                 </div>
                 <div>
                   <label htmlFor="inquiry" className="block mb-2 font-medium">
@@ -102,7 +102,7 @@ export default function ContactPage() {
               <p>Near to Medicover Hospital line,</p>
               <p>Hitech City, Hyderabad-500081</p>
               <p>India</p>
-              <p className="mt-2">Phone: +91 22123-4567</p>
+              <p className="mt-2">Phone: +91 922123-4567</p>
                     </address>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
                     <h3 className="font-bold text-lg mb-1">Phone</h3>
                     <p className="text-gray-600">
                       <a href="+91 22123-4567" className="hover:text-blue-600">
-                        +91 22123-4567
+                        +91 922123-4567
                       </a>
                     </p>
                   </div>
@@ -146,7 +146,7 @@ export default function ContactPage() {
               <div className="mt-8">
                 <h3 className="font-bold text-lg mb-4">Connect With Us</h3>
                 <div className="flex space-x-4">
-                  <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
+                <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -159,9 +159,11 @@ export default function ContactPage() {
                       strokeLinejoin="round"
                       className="h-5 w-5"
                     >
-                      <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
                     </svg>
-                    <span className="sr-only">Facebook</span>
+                    <span className="sr-only">LinkedIn</span>
                   </a>
                   <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
                     <svg
@@ -181,24 +183,25 @@ export default function ContactPage() {
                     <span className="sr-only">Twitter</span>
                   </a>
                   <a href="#" className="bg-primary/10 p-3 rounded-full text-blue-600 hover:bg-primary/20">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth="2"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      className="h-5 w-5"
-                    >
-                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                      <rect x="2" y="9" width="4" height="12"></rect>
-                      <circle cx="4" cy="4" r="2"></circle>
-                    </svg>
-                    <span className="sr-only">LinkedIn</span>
-                  </a>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="h-5 w-5"
+  >
+    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+  </svg>
+  <span className="sr-only">Instagram</span>
+</a>
+
                 </div>
               </div>
             </div>

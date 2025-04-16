@@ -10,13 +10,13 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">TechTalent Solutions</h3>
             <p className="text-gray-600 mb-4">Connecting top IT talent with leading businesses since 2010.</p>
             <div className="flex space-x-4">
+            <Link href="#" className="text-gray-500 hover:text-blue-600">
+                <Linkedin size={20} />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
               <Link href="#" className="text-gray-500 hover:text-blue-600">
                 <Twitter size={20} />
                 <span className="sr-only">Twitter</span>
-              </Link>
-              <Link href="#" className="text-gray-500 hover:text-blue-600">
-                <Linkedin size={20} />
-                <span className="sr-only">LinkedIn</span>
               </Link>
               <Link href="#" className="text-gray-500 hover:text-blue-600">
                 <Instagram size={20} />
@@ -85,7 +85,7 @@ export default function Footer() {
               <p>Hitech City, Hyderabad-500081</p>
               <p>India</p>
               <p className="mt-2">Phone: +91 22123-4567</p>
-              <p>Email: info@ChalamSoft.com</p>
+              <p>Email: info@chalamcoft.com</p>
             </address>
           </div>
         </div>

@@ -4,7 +4,7 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
-
+import Image from "next/image"
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -16,8 +16,8 @@ export default function Header() {
     <header className="border-b bg-white">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            Chalam<span className="text-blue-600">Soft</span>
+          <Link href="/" className="text-2xl font-bold text-blue-600 m-0 p-0">
+          <Image src="/logo-name.png" alt="ChalamSoft Logo" width={110} height={80} className="m-0 p-0"/>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-6">
