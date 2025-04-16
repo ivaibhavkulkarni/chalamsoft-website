@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <header className="border-b bg-white">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-blue-600 m-0 p-0">
           <Image src="/logo-name.png" alt="ChalamSoft Logo" width={110} height={80} className="m-0 p-0"/>
