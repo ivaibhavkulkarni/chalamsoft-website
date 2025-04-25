@@ -20,51 +20,6 @@ export default function FAQPage() {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
-            <h2 className="text-2xl font-bold mb-8">For Employers</h2>
-            <Accordion type="single" collapsible className="mb-12">
-              <AccordionItem value="item-1">
-                <AccordionTrigger>How quickly can you find candidates?</AccordionTrigger>
-                <AccordionContent>
-                  For most positions, we can present qualified candidates within 1-2 weeks. For urgent needs or
-                  specialized roles, we will work with you to establish a realistic timeline. Our extensive network and
-                  database of pre-screened candidates often allows us to move quickly.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-2">
-                <AccordionTrigger>What types of IT roles do you fill?</AccordionTrigger>
-                <AccordionContent>
-                  We specialize in a wide range of IT positions, from developers and engineers to project managers and
-                  executives. Our expertise spans across various technologies and industries, including software
-                  development, cloud infrastructure, cybersecurity, data science, and IT management.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-3">
-                <AccordionTrigger>What is your fee structure?</AccordionTrigger>
-                <AccordionContent>
-                  Our fees vary based on the type of placement (contract vs. permanent) and the complexity of the role.
-                  We are transparent about our pricing and will provide detailed information during our initial
-                  consultation. For contract positions, we typically charge a markup on the hourly rate, while permanent
-                  placements usually involve a percentage of the first-year salary.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-4">
-                <AccordionTrigger>How do you screen candidates?</AccordionTrigger>
-                <AccordionContent>
-                  Our screening process includes technical assessments, behavioral interviews, reference checks, and
-                  skills verification. We tailor our approach to each role to ensure candidates have both the technical
-                  qualifications and soft skills needed for success in your specific environment.
-                </AccordionContent>
-              </AccordionItem>
-              <AccordionItem value="item-5">
-                <AccordionTrigger>Do you offer any guarantees?</AccordionTrigger>
-                <AccordionContent>
-                  Yes, we stand behind our placements with a satisfaction guarantee. For permanent placements, we offer
-                  a replacement guarantee period (typically 90 days). If a placed candidate does not work out during this
-                  period, we will find a replacement at no additional cost.
-                </AccordionContent>
-              </AccordionItem>
-            </Accordion>
-
             <h2 className="text-2xl font-bold mb-8">For Job Seekers</h2>
             <Accordion type="single" collapsible className="mb-12">
               <AccordionItem value="item-6">
