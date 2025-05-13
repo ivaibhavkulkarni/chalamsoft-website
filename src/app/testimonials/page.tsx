@@ -197,9 +197,11 @@ export default function TestimonialsPage() {
             Whether you are looking to hire top IT talent or find your next career opportunity, we are here to help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <Link href="/hire-talent">
             <Button size="lg" variant="secondary" className="text-blue-600">
-              Hire Talent
+              Hire Talent 
             </Button>
+            </Link>
             <Link href="/job-listings">
             <Button size="lg" variant="secondary" className="text-blue-600">
               Find a Job

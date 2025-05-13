@@ -58,7 +58,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
               </div>
-              <Link href="/employers">
+              <Link href="/contact">
                 <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire IT Talent</Button>
               </Link>
             </div>
@@ -205,14 +205,6 @@ export default function ServicesPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Contact us today to discuss your IT staffing needs or technical service requirements.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Button size="lg" variant="secondary" className="text-blue-600">
-              Request Talent
-            </Button>
-            <Button size="lg" variant="secondary" className="text-blue-600">
-              Get IT Services
-            </Button>
-          </div>
         </div>
       </section>
     </>

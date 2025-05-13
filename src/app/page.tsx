@@ -27,9 +27,11 @@ export default function Home() {
                 solutions and IT services tailored to your needs.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 items-start">
+              <Link href="/hire-talent">
                 <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">
-                  Hire Talent
+                  Hire Talent 
                 </Button>
+              </Link>
                 <Link href="/job-listings">
                 <Button size="lg" variant="outline" className="text-base hover:bg-blue-200">
                   Find a Job
@@ -192,9 +194,11 @@ export default function Home() {
             Whether youre looking to hire top IT talent or searching for your next career move, were here to help.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
+          <Link href="/hire-talent">
             <Button size="lg" variant="secondary" className="text-blue-600">
-              Hire Talent
+              Hire Talent 
             </Button>
+            </Link>
             <Link href="/job-listings">
             <Button size="lg" variant="secondary" className="text-blue-600 w-full">
               Find a Job

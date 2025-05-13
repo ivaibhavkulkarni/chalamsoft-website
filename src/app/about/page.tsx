@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { Users, Award, Clock } from "lucide-react"
+import Link from "next/link"
 
 export default function AboutPage() {
   return (
@@ -147,9 +148,11 @@ export default function AboutPage() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Lets discuss how we can help you find the right talent or provide the IT services your business needs.
           </p>
+          <Link href="/contact">
           <Button size="lg" variant="secondary" className="text-blue-600">
             Contact Us Today
           </Button>
+          </Link>
         </div>
       </section>
     </>

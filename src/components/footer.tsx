@@ -62,8 +62,8 @@ export default function Footer() {
             <h3 className="text-lg font-bold mb-4">For Clients</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/employers" className="text-gray-600 hover:text-blue-600">
-                  Hire Talent
+                <Link href="/hire-talent " className="text-gray-600 hover:text-blue-600">
+                  Hire Talent 
                 </Link>
               </li>
               <li>

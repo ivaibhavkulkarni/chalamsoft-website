@@ -47,7 +47,9 @@ export default function Header() {
             <Link href="/job-listings">
             <Button variant="outline" className="text-base hover:bg-blue-200">Find a Job</Button>
             </Link>
-            <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire Talent</Button>
+            <Link href="/hire-talent">
+            <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire Talent </Button>
+            </Link>
           </div>
 
           <button className="md:hidden" onClick={toggleMenu}>
@@ -83,7 +85,9 @@ export default function Header() {
               <Link href="/job-listings">
               <Button variant="outline" className="w-full text-base hover:bg-blue-200">Find a Job</Button>
               </Link>
-              <Button className="w-full text-white bg-blue-600 hover:bg-blue-400">Hire Talent</Button>
+              <Link href="/hire-talent">
+              <Button className="w-full text-white bg-blue-600 hover:bg-blue-400">Hire Talent </Button>
+              </Link>
               </div>
             </nav>
           </div>
