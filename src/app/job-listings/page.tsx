@@ -9,6 +9,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Briefcase, MapPin, Clock, Search, Building } from "lucide-react"
 import { Skeleton } from "@/components/ui/skeleton"
+import Link from "next/link"
 
 interface JobProps {
   id: number
@@ -200,9 +201,10 @@ export default function JobListings() {
                       <Button
                         variant="outline"
                         className="text-sm hover:bg-blue-200"
-                        onClick={() => window.open(job.apply_job_link, "_blank")}
-                      >
+                        asChild
+                      ><Link href={`/job-listings/${job.id}`}>
                         View Details
+                      </Link>
                       </Button>
 
                       <Button

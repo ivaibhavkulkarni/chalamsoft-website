@@ -94,9 +94,14 @@ export default function JobSeekersPage() {
               {job.location}
             </p>
             <p className="text-gray-600 mb-4">{job.one_line_description}</p>
-            <Button variant="outline" className="w-full hover:bg-blue-200">
-              View Details
-            </Button>
+            <Button
+                  variant="outline"
+                  className="text-sm hover:bg-blue-200 w-full"
+                  asChild
+                  ><Link href={`/job-listings/${job.id}`}>
+                    View Details
+                </Link>
+              </Button>
           </div>
           
         ))}
