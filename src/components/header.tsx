@@ -48,7 +48,7 @@ export default function Header() {
             <Button variant="outline" className="text-base hover:bg-blue-200">Find a Job</Button>
             </Link>
             <Link href="/hire-talent">
-            <Button className="text-white bg-blue-600 hover:bg-blue-400">Hire Talent </Button>
+            <Button className="text-white bg-blue-600 hover:bg-blue-400">ChalamSoft Career </Button>
             </Link>
           </div>
 
@@ -86,7 +86,7 @@ export default function Header() {
               <Button variant="outline" className="w-full text-base hover:bg-blue-200">Find a Job</Button>
               </Link>
               <Link href="/hire-talent">
-              <Button className="w-full text-white bg-blue-600 hover:bg-blue-400">Hire Talent </Button>
+              <Button className="w-full text-white bg-blue-600 hover:bg-blue-400">ChalamSoft Career </Button>
               </Link>
               </div>
             </nav>

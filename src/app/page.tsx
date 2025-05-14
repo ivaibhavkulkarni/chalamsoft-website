@@ -29,7 +29,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row gap-4 items-start">
               <Link href="/hire-talent">
                 <Button size="lg" className="text-white bg-blue-600 hover:bg-blue-400">
-                  Hire Talent 
+                  ChalamSoft Career 
                 </Button>
               </Link>
                 <Link href="/job-listings">
@@ -196,7 +196,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/hire-talent">
             <Button size="lg" variant="secondary" className="text-blue-600">
-              Hire Talent 
+              ChalamSoft Career 
             </Button>
             </Link>
             <Link href="/job-listings">

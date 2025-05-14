@@ -63,7 +63,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link href="/hire-talent " className="text-gray-600 hover:text-blue-600">
-                  Hire Talent 
+                  ChalamSoft Career 
                 </Link>
               </li>
               <li>

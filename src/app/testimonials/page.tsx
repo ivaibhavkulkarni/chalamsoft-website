@@ -199,7 +199,7 @@ export default function TestimonialsPage() {
           <div className="flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/hire-talent">
             <Button size="lg" variant="secondary" className="text-blue-600">
-              Hire Talent 
+              ChalamSoft Career 
             </Button>
             </Link>
             <Link href="/job-listings">
